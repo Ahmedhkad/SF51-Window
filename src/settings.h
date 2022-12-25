@@ -12,8 +12,9 @@
 
 /* I/O pins selection of NodeMCU */ 
 
-#define IRtransmit              4   //D2
+#define MotorEnable             13  //D7
+#define Window1DirA             12  //D6
+#define Window1DirB             5   //D1 
 
-#define SilderEnable            13  //D7
-#define SliderDir1              12  //D6
-#define SliderDir2              5   //D1 
+#define Window2DirA             14  //D5 
+#define Window2DirB             4   //D2   
